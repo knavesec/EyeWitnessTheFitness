@@ -1,6 +1,6 @@
 # EyeWitnessTheFitness #
 
-External recon got ya down? That scan prevention system preventing you from enumerating web pages? Well look no further for I have the tool for you
+External recon got ya down? That scan prevention system preventing you from enumerating web pages? Well look no further, I have the tool for you
 
 Generate one FireProx API to be used for all your EyeWitness targets, making your enumeration both opsec-friendly and convenient.
 
@@ -23,6 +23,14 @@ root@echo:/opt/EyeWitnessTheFitness# python3 witnessthefitness.py {config or acc
 [+] Now run: python3 Eyewitness.py --web -f eyewitnessout.txt [other inputs]
 ```
 
+```
+Example eyewitnessout.txt
+https://{api id}.execute-api.us-east-2.amazonaws.com/fireprox/nmap.org/
+https://{api id}.execute-api.us-east-2.amazonaws.com/fireprox/apache.org/
+https://{api id}.execute-api.us-east-2.amazonaws.com/fireprox/www.google.com/
+
+```
+
 Then you just run Eyewitness with your new file. Each request will have a different IP address which is what most IPS systems block by.
 
 ```
@@ -32,4 +40,5 @@ python3 Eyewitness.py --web -f eyewitnessout.txt
 ### Contact ###
 
 Feel free to drop me a line
+
 [twitter](https://twitter.com/knavesec) - \@knavesec
