@@ -42,4 +42,4 @@ Feel free to drop me a line
 
 [twitter](https://twitter.com/knavesec) - \@knavesec
 
-[Inspiration](https://www.youtube.com/watch?v=_PP1AK1Aqis&t=92s)
+[Inspiration](https://www.youtube.com/watch?v=_PP1AK1Aqis&t=92s) - \#RedTeamFit
