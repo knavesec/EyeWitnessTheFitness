@@ -28,7 +28,6 @@ Example eyewitnessout.txt
 https://{api id}.execute-api.us-east-2.amazonaws.com/fireprox/nmap.org/
 https://{api id}.execute-api.us-east-2.amazonaws.com/fireprox/apache.org/
 https://{api id}.execute-api.us-east-2.amazonaws.com/fireprox/www.google.com/
-
 ```
 
 Then you just run Eyewitness with your new file. Each request will have a different IP address which is what most IPS systems block by.
