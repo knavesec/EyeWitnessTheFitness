@@ -8,6 +8,8 @@ Generate one FireProx API to be used for all your EyeWitness targets, making you
 
 **Second Note:** Use a normal FireProx API for anything outside of Eyewitness enum, actual testing on this API will likely result in the website not acting properly due to API URI issues
 
+**Third Note:** Maximum number of URLs per API endpoint is 150, so if you have more chop them up into 150 url bits and create an endpoint for each
+
 ## Usage ##
 
 Start off with a list of Eyewitness targets in a file, make sure they all have http:// or https:// prepended to the URL. Run the script specifying what AWS region you want it in, then it will output your new Eyewitness target file.
